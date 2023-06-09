@@ -8,7 +8,7 @@ import pandas as pd
 import re
 from datetime import datetime
 
-required_city="Bangalore"
+required_city=input("Enter the city for which you would like to prepare this report")
 location_url='https://locator-service.api.bbci.co.uk/locations?'+urlencode({
     'api_key': 'AGbFAKx58hyjQScCXIYrxuEwJh2W2cmv',
     's': required_city,
